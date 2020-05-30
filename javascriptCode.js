@@ -1,6 +1,6 @@
 // const, let, var
 const maxHealth = 100;
-var currentHealth = 50;
+maxHealth = 50; // Not allowed, will throw an error
 currentHealth = maxHealth
 
 if (true) {
